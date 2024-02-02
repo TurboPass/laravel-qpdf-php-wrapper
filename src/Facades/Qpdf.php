@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Facade as BaseFacade;
  * @method static int getQpdfVersion(string $path)
  * @method static bool fileIsPdf(string $path)
  * @method static int getNumberOfPages(string $path)
- * @method static bool rotate(string $path, \Msmahon\QpdfPhpWrapper\ENUMS\Rotation $direction, string $range)
+ * @method static bool rotate(string $path, \Msmahon\QpdfPhpWrapper\Enums\Rotation $direction, string $range)
  * @method static bool trimToRange(string $path, string|int $range)
  * @method static bool combineRangesFromFiles(array $pages, string $output)
  * @method static bool copyPages(string $path, string $outputPath, string $range)
