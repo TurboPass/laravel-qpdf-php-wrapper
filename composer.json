@@ -1,0 +1,25 @@
+{
+    "name": "msmahon/laravel-qpdf-php-wrapper",
+    "type": "library",
+    "description": "A Laravel service provider for the msmahon/qpdf-php-wrapper package.",
+    "keywords": ["laravel", "qpdf", "pdf"],
+    "homepage": "https://github.com/msmahon/laravel-qpdf-php-wrapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitchell Mahoney",
+            "email": "mahoneymitch@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Msmahon\\LaravelQpdfPhpWrapper\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^9",
+        "msmahon/qpdf-php-wrapper": "^2.1"
+    }
+}
