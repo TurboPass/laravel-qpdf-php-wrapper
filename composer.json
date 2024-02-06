@@ -20,6 +20,6 @@
     "require": {
         "php": "^8.1",
         "illuminate/support": "^9",
-        "msmahon/qpdf-php-wrapper": "^2.1"
+        "msmahon/qpdf-php-wrapper": "^1.0"
     }
 }
