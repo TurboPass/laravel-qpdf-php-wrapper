@@ -1,25 +1,29 @@
 {
-    "name": "msmahon/laravel-qpdf-php-wrapper",
+    "name": "paradoxd300/laravel-qpdf-php-wrapper",
     "type": "library",
-    "description": "A Laravel service provider for the msmahon/qpdf-php-wrapper package.",
+    "description": "A Laravel service provider for the paradoxd300/qpdf-php-wrapper package.",
     "keywords": ["laravel", "qpdf", "pdf"],
-    "homepage": "https://github.com/msmahon/laravel-qpdf-php-wrapper",
+    "homepage": "https://github.com/ParadoxD300/laravel-qpdf-php-wrapper",
     "license": "MIT",
     "authors": [
         {
             "name": "Mitchell Mahoney",
             "email": "mahoneymitch@gmail.com"
+        },
+        {
+            "name": "Travis Turner",
+            "email": "travis@turbopassusa.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Msmahon\\LaravelQpdfPhpWrapper\\": "src/"
+            "ParadoxD300\\LaravelQpdfPhpWrapper\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "require": {
         "php": "^8.1",
-        "illuminate/support": "^9",
-        "msmahon/qpdf-php-wrapper": "^1.0"
+        "illuminate/support": "^9.0|^10.0|^11.0",
+        "paradoxd300/qpdf-php-wrapper": "^1.0"
     }
 }
