@@ -7,13 +7,13 @@ composer require paradoxd300/laravel-qpdf-php-wrapper
 ```
 
 ## Laravel
-Add the service provider to the providers array in config/app.php
+Add the service provider in config/app.php or bootstrap/app.php (depending on Laravel version)
 ```
-ParadoxD300\laravel-qpdf-php-wrapper\ServiceProvider::class,
+ParadoxD300\LaravelQpdfPhpWrapper\ServiceProvider::class,
 ```
-Add to your facades:
+Add to your facades in config/app.php:
 ```
-'Qpdf' => ParadoxD300\laravel-qpdf-php-wrapper\Facades\Qpdf.php,
+'Qpdf' => ParadoxD300\LaravelQpdfPhpWrapper\Facades\Qpdf::class,
 ```
 
 ## Usage
