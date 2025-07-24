@@ -1,9 +1,9 @@
 {
-    "name": "paradoxd300/laravel-qpdf-php-wrapper",
+    "name": "turbopass/laravel-qpdf-php-wrapper",
     "type": "library",
-    "description": "A Laravel service provider for the paradoxd300/qpdf-php-wrapper package.",
+    "description": "A Laravel service provider for the turbopass/qpdf-php-wrapper package.",
     "keywords": ["laravel", "qpdf", "pdf"],
-    "homepage": "https://github.com/ParadoxD300/laravel-qpdf-php-wrapper",
+    "homepage": "https://github.com/TurboPass/laravel-qpdf-php-wrapper",
     "license": "MIT",
     "authors": [
         {
@@ -17,13 +17,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "ParadoxD300\\LaravelQpdfPhpWrapper\\": "src/"
+            "TurboPass\\LaravelQpdfPhpWrapper\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "require": {
         "php": "^8.1",
         "illuminate/support": "^9.0|^10.0|^11.0",
-        "paradoxd300/qpdf-php-wrapper": "^1.1"
+        "turbopass/qpdf-php-wrapper": "^1.1"
     }
 }
