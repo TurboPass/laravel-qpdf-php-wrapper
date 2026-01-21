@@ -34,6 +34,6 @@
     "require": {
         "php": "^8.2",
         "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
-        "turbopass/qpdf-php-wrapper": "^1.4"
+        "turbopass/qpdf-php-wrapper": "^1.5"
     }
 }
